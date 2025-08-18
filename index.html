@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAILWIND-TASK-2</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-black text-white font-sans">
+  <div class="max-w-7xl mx-auto bg-neutral-900 p-6">
+    <header class="flex justify-center gap-60">
+      <div class="w-12"></div>
+      <div class=" bg-[#1a1a1d] rounded-full px-6 py-2 flex space-x-6 border border-gray-700 shadow-sm">
+        <a href="#" class="hover:text-blue-400">About</a>
+        <a href="#" class="hover:text-blue-400">Articles</a>
+        <a href="#" class="hover:text-blue-400">Projects</a>
+        <a href="#" class="hover:text-blue-400">Speaking</a>
+        <a href="#" class="hover:text-blue-400">Uses</a>
+      </div>
+      <div class="w-12 flex justify-center items-center text-gray-400 rounded-full border border-gray-700 hover:text-white shadow-lg">
+        <i class="fa-regular fa-moon"></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="ml-15 mt-18">
+        <div>
+          <img src="human.webp" alt="men photo" class="rounded-full w-[64px] h-[64px]">
+        </div>
+        <div class="max-w-2xl mt-5">
+          <h3 class="text-[45px] font-bold leading-tight">Software designer, founder, and amateur astronaut.</h3>
+          <p class="text-zinc-400 mt-5 text-base/7">I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.</p>
+        </div>
+        <div class="flex gap-4 mt-4">
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">          
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-white">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="mt-17">
+        <div class="flex justify-center gap-4">
+          <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2">
+            <img src="image-1.webp" width="3744" height="5616">
+          </div>
+          <div class="relative aspect-9/10 w-44 h-full flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 -rotate-2">
+            <img src="image-2.webp" class="absolute h-full">
+          </div>
+          <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800">
+            <img src="image-3.webp" class="absolute h-full">
+          </div>
+          <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 rotate-2">
+            <img src="image-4.webp" width="3744" height="5616">
+          </div>
+          <div class="relative aspect-9/10 w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800 -rotate-2">
+            <img src="image-5.webp" class="absolute h-full">
+          </div>
+        </div>
+      </section>
+
+      <section class="ml-15">
+        <div class="max-w-7xl mx-auto pt-30 flex">
+          <div class="flex-1 pr-15">
+            <div class="p-6 rounded-xl hover:bg-neutral-800">
+              <p class="text-gray-400">September 5, 2022</p>
+              <h2 class="font-bold text-md mt-2">
+                Crafting a design system for a multiplanetary future
+              </h2>
+              <p class="text-gray-500 mt-2 text-[15px]">
+                Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system.
+              </p>
+              <div class="text-teal-400 mt-5">Read article  ></div>
+            </div>
+
+            <div class="p-6 rounded-xl hover:bg-neutral-800">
+              <p class="text-gray-400 mt-2">September 2, 2022</p>
+              <h2 class="font-bold text-md mt-2"> 
+                Introducing Animaginary: High performance web animations
+              </h2>
+              <p class="mt-2 text-gray-500 text-[15px]">
+                When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.
+              </p>
+              <div class="text-teal-400 mt-5">Read article  ></div>
+            </div>
+
+            <div class="p-6 rounded-xl hover:bg-neutral-800">
+              <p class="text-gray-400 mt-2">July 14, 2022</p>
+              <h2 class="font-bold text-md mt-2">
+                Rewriting the cosmOS kernel in Rust
+              </h2>
+              <p class="mt-2 text-gray-500 text-[15px]">
+                When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.
+              </p>
+              <div class="text-teal-400 mt-5">Read article  ></div>
+            </div>
+          </div>
+
+          <div class="w-[515px] flex flex-col space-y-8">
+            <div class="border border-zinc-700/40 p-6 rounded-2xl mr-16">
+              <h3 class="font-semibold mb-2 whitespace-pre"><i class="fa-solid fa-envelope "></i>   Stay up to date</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Get notified when I publish something new, and unsubscribe at any time.
+              </p>
+              <form class="flex items-center space-x-2">
+                <input 
+                  type="email" 
+                  placeholder="Enter your email"
+                  class="flex-1 px-3 py-2 rounded-md border border-gray-700 text-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                />
+                <button class="px-3 py-2 bg-gray-500 text-white rounded-md hover:bg-teal-600">
+                  Join
+                </button>
+              </form>
+            </div>
+            <div class="p-6 rounded-2xl border border-zinc-700/40 mr-16">
+              <h3 class="font-semibold mb-4 whitespace-pre"><i class="fa-solid fa-briefcase"></i>   Work</h3>
+              <ul>
+                <li class="flex items-center mb-3">
+                  <div>
+                    <img src="https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg" class="h-7 w-7 outline-5 outline-zinc-700  rounded-full">
+                  </div>
+                  <div class="ml-5">
+                    <span class="font-semibold block">Planetaria</span>
+                    <span class="text-xs text-gray-500">CEO 
+                      <span class="ml-60">2019 — Present</span>
+                    </span>
+                  </div>
+                </li>
+                <li class="flex items-center mb-3">
+                  <div>
+                    <img src="https://spotlight.tailwindui.com/_next/static/media/airbnb.b4000690.svg" class="h-7 w-7 outline-5 outline-zinc-700  rounded-full">
+                  </div>
+                  <div class="ml-5">
+                    <span class="font-semibold block">Airbnb</span>
+                    <span class="text-xs text-gray-500">Product Designer                      
+                      <span class="ml-70">2014 — 2019</span>
+                    </span>
+                  </div>
+                </li>
+                <li class="flex items-center mb-3">
+                  <div>
+                    <img src="https://spotlight.tailwindui.com/_next/static/media/facebook.dd9e7d48.svg" class="h-7 w-7 outline-5 outline-zinc-700  rounded-full">
+                  </div>
+                  <div class="ml-5">
+                    <span class="font-semibold block">Facebook</span>
+                    <span class="text-xs text-gray-500">iOS Software Engineer 
+                      <span class="ml-70">2011 — 2014</span>
+                    </span>
+                  </div>
+                </li>
+                <li class="flex items-center mb-3">
+                  <div>
+                    <img src="https://spotlight.tailwindui.com/_next/static/media/starbucks.4a5bd050.svg" class="h-7 w-7 outline-5 outline-zinc-700 rounded-full">
+                  </div>
+                  <div class="ml-5">
+                    <span class="font-semibold block">Starbucks</span>
+                    <span class="text-xs text-gray-500">Shift Supervisor
+                      <span class="ml-47">2008 — 2011</span>
+                  </div>
+                </li>
+              </ul>
+              <button class="w-full mt-4 bg-zinc-800/50 rounded px-6 py-2 text-sm font-semibold text-gray-100 hover:bg-neutral-800">
+                Download CV ↓
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
